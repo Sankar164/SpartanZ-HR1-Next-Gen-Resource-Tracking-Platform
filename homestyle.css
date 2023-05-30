@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background-image {
+  background-image: url("Resources/bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.centered-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+.centered-text h1 {
+  font-size: 48px;
+  color:beige;
+  margin-bottom: 20px;
+}
+
+.centered-text p {
+  font-size: 24px;
+  color:beige;
+}
+.lgnbtn{
+  position: relative;
+  background-color: wheat;
+  padding: 0;
+  border-radius: 2rem 2rem;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+
+}
+.lgnbtn .text{
+  position: flex;
+  margin-top: 5px;
+  color: rgb(12, 34, 60);
+  background-color: transparent;
+}

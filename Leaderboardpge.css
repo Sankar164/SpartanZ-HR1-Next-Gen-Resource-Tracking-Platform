@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+	html {
+		box-sizing: border-box;
+		background-color: #1247a21f;
+		scroll-behavior: smooth;
+	}
+
+	body {
+		max-width: 100%;
+	}
+	*,
+	*:before,
+	*:after {
+		box-sizing: inherit;
+	}
+		
+
+	.column {
+		float: left;
+		width: 33.3%;
+		height: 33.3%;
+		margin-bottom: 12px;
+		padding: 2px;
+	}
+		
+
+	.card {
+		background-color: transparent;
+		border: 2px solid black;
+	}
+		
+	.container {
+		padding: 0 16px;
+	}
+		
+	.fa {
+		margin: 10px;
+		font-size:68px;
+	}
+		
+	.fa:hover {
+		transform: rotateY(180deg);
+		transition: transform 0.8s;
+	}
+		
+	.container::after,
+	.row::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+
+	.button {
+		border: none;
+		padding: 8px;
+		color: white;
+		background-color: #449D44;
+		text-align: center;
+		cursor: pointer;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.button:hover {
+		background-color: blue;
+		border-radius: 25px;
+	}
+	#frstprson {
+		float: none;
+		margin: auto;
+	}
